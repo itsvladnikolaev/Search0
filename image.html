@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Image Search</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./Pics/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Google Images</title>
     </head>
     <body>
+        <nav>
+            <ul class="header-nav">
+                <a class="link" href="index.html">Google Search</a> 
+                <img class="header-img" src="./Pics/google-app-icon.png" alt="google-apps">
+                <img class="header-img" src="./Pics/google-account-circle.png" alt="profile-pic">  
+            </ul>
+        </nav>
 
+        <div class="center-div">
+            <img src="Pics/google-images-logo.png" alt="Google-logo" height="92">
+        </div>
+
+        <!-- Search Starts -->
+
+        <!-- Search Ends -->
         <form action="http://images.google.com/images?um=1&hl=en&safe=active&nfpr=1&">
-            <input type="text" name="q">
-            <input type="submit" value="Google Image Search">
+            <input type="text" name="q" class="rounded-input">
+            <div class="center-div">
+                <input type="submit" value="Google Image Search" class="button-search">
+            </div>
         </form>
-
-        <div class="navigation">
-            <a class="link" href="index.html">Google Search</a> 
-        </div>
-
-        <div class="navigation">
-            <a class="link" href="advanced search.html">Advanced Search </a> 
-        </div>
 
     </body>
 </html>
