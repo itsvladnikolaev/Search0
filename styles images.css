@@ -1,5 +1,4 @@
 
-/* !!!This is where meta parameters begins!!! */
 
 /* this adds corresponding Google fonts */
 body {
@@ -20,10 +19,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* !!!This is where meta parameters ends!!! */
-
-/* !!!This is where navigation parameters begins!!! */
-
 /* this makes navigation links go to the upper-right corner */
 nav {
     display: flex;
@@ -33,9 +28,6 @@ nav {
     margin-top: 10px;
 }
 
-/* !!!This is where navigation parameters ends!!! */
-
-/* this makes search bar and buttons be centered */
 .central {
     display: flex;
     flex-direction: column;
@@ -48,7 +40,6 @@ img {
     margin-bottom:20px;
 }
 
-/* this makes image be centered */
 .center-div {
     display: flex;
     justify-content: center;
@@ -64,6 +55,7 @@ img {
     font-size: 16px;
 }
 
+
 .search-bar:hover{
     box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
@@ -71,9 +63,8 @@ img {
 .search-bar:focus-within{
     box-shadow: 1px 1px 8px 1px #dcdcdc;
     outline:none;
-  }
+}
 
-/* this makes buttons have their effects */
 .button-search {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -91,5 +82,4 @@ img {
     border: 1px solid #c8c8c8;
     padding: 9px 19px;
     color:#808080;
-  }
-
+}
