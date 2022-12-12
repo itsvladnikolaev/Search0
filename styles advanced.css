@@ -1,111 +1,110 @@
-
 /* this adds corresponding Google fonts */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  box-sizing: border-box;
 }
 
 /* this makes links text black */
 a {
-    margin: 5px;
-    text-decoration: none;
-    color: black;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
 }
 
 /* this makes links create an underline when hovering */
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* this makes navigation links go to the upper-right corner */
 .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 20px;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 /* this makes text look like in Google */
 .appbar-advanced {
-    color: #d93025;
-    font-size: 20px;
-    margin-left: 45px;
-    margin-bottom: 30px;
+  color: #d93025;
+  font-size: 20px;
+  margin-left: 45px;
+  margin-bottom: 30px;
 }
 
 /* this makes a line */
 .line {
-    border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
 }
 
 /* this makes text show correctly */
 .div-advanced {
-    margin-left: 45px;
-    margin-top: 50px;
+  margin-left: 45px;
+  margin-top: 50px;
 }
 
 /* this makes a text */
 .h2-advanced {
-    font-size: 16px;
-    color: #333333;
+  font-size: 16px;
+  color: #333333;
 }
 
 /* this makes text on the left look correctly */
 .left {
-    margin-left: 45px;
-    font-size: 13px;
-    color: #222222;
-    width: 200px;
+  margin-left: 45px;
+  font-size: 13px;
+  color: #222222;
+  width: 200px;
 }
 
 /* this makes text and input go one after another */
 .advanced-input {
-    display: flex;
-    flex-direction: row;
-    align-items: center;    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /* this makes form look correct */
 .form-input {
-    display: block;
-    width: 572px;
-    border-radius: 1px;
-    border: 1px solid #d9d9d9;
-    border-top: 1px solid #c0c0c0;
-    font-size: 13px;
-    height: 25px;
-    padding: 1px 8px;
+  display: block;
+  width: 572px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
 }
 
 /* this makes Advanced Search Button */
 .btn-advanced {
-    box-shadow: none;
-    background-color: #4d90fe;
-    border: 1px solid #3079ed;
-    color: #fff;
-    height: 30px;
-    line-height: 100%;
-    min-width: 120px;
-    border-radius: 2px;
-    font-size: 11px;
-    font-weight: bold;
-    text-align: center;
-    white-space: nowrap;
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  height: 30px;
+  line-height: 100%;
+  min-width: 120px;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
 }
 
 /* this makes Advanced Search Button on Hover */
 .btn-advanced:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 /* this makes Button Show after Input */
 .btn-div {
-    display: flex;
-    justify-content: flex-end;
-    width: 585px;
-    margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  width: 585px;
+  margin-top: 15px;
 }

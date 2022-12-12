@@ -1,91 +1,87 @@
-
 /* !!!This is where meta parameters begins!!! */
 
 /* this adds corresponding Google fonts */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  box-sizing: border-box;
 }
 
 /* this makes links text black */
 a {
-    margin: 5px;
-    text-decoration: none;
-    color: black;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
 }
 
 /* this makes links create an underline when hovering */
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* this makes navigation links go to the upper-right corner */
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 10px;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 /* this makes search bar and buttons be centered */
 .central {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 18vh;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18vh;
+  justify-content: center;
 }
 
 img {
-    margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 /* this makes image be centered */
 .center-div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .search-bar {
-    display: block;
-    width: 530px;
-    padding: 13px;
-    padding-left: 45px;
-    border: 1px solid #dfe1e5;
-    border-radius: 25px;
-    font-size: 16px;
-    outline: none;
+  display: block;
+  width: 530px;
+  padding: 13px;
+  padding-left: 45px;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
 }
 
-
-.search-bar:hover{
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
+.search-bar:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 
-.search-bar:focus-within{
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-    outline:none;
-  }
+.search-bar:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
 
 /* this makes buttons have their effects */
 .button-search {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-size: 14px;
-    margin: 29px 6px;
-    padding: 0 15px;
-    height: 36px;
-    cursor: pointer;
-    
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 29px 6px;
+  padding: 0 15px;
+  height: 36px;
+  cursor: pointer;
 }
 
-.button-search:hover{
-    border: 1px solid #aaa;
-  }
-
+.button-search:hover {
+  border: 1px solid #aaa;
+}
